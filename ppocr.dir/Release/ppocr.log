@@ -1,0 +1,1444 @@
+﻿  main.cpp
+E:\PaddleOCR\deploy\cpp_infer\src\main.cpp(14): fatal error C1083: Cannot open include file: 'opencv2/core.hpp': No such file or directory
+  ocr_cls.cpp
+d:\paddle_inference\paddle\include\paddle_tensor.h(173): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'paddle_infer::Tensor'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(153): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(154): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+          with
+          [
+              _Ty=int
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(71): note: see declaration of 'std::vector<int,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=int
+          ]
+D:\paddle_inference\paddle\include\paddle_api.h(157): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+          with
+          [
+              _Ty=size_t
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(145): note: see declaration of 'std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=size_t
+          ]
+D:\paddle_inference\paddle\include\paddle_api.h(321): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::NativeConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(323): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::NativeConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_pass_builder.h(114): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle::PaddlePassBuilder'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_pass_builder.h(115): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle::PaddlePassBuilder'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(866): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(867): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(868): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(881): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(918): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(919): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(920): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(921): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(932): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(942): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(959): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(961): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=paddle::PassStrategy
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(961): note: see declaration of 'std::unique_ptr<paddle::PassStrategy,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=paddle::PassStrategy
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(964): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(965): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(975): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(976): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(985): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(985): note: see declaration of 'std::shared_ptr<paddle::MkldnnQuantizerConfig>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(987): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(1006): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(1010): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(79): note: see declaration of 'paddle::DistConfig'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(410): warning C4244: 'return': conversion from 'const uint64_t' to 'int', possible loss of data
+D:\paddle_inference\paddle\include\paddle_inference_api.h(153): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle_infer::Predictor'
+          with
+          [
+              _Ty=paddle::PaddlePredictor
+          ]
+  D:\paddle_inference\paddle\include\paddle_api.h(288): note: see declaration of 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=paddle::PaddlePredictor
+          ]
+D:\paddle_inference\paddle\include\paddle_inference_api.h(200): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' needs to have dll-interface to be used by clients of class 'paddle_infer::services::PredictorPool'
+  D:\paddle_inference\paddle\include\paddle_inference_api.h(168): note: see declaration of 'std::shared_ptr<paddle_infer::Predictor>'
+D:\paddle_inference\paddle\include\paddle_inference_api.h(201): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<_Ty>>,std::allocator<std::unique_ptr<_Ty,std::default_delete<_Ty>>>>' needs to have dll-interface to be used by clients of class 'paddle_infer::services::PredictorPool'
+          with
+          [
+              _Ty=paddle_infer::Predictor
+          ]
+  D:\paddle_inference\paddle\include\paddle_inference_api.h(201): note: see declaration of 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<_Ty>>,std::allocator<std::unique_ptr<_Ty,std::default_delete<_Ty>>>>'
+          with
+          [
+              _Ty=paddle_infer::Predictor
+          ]
+E:\PaddleOCR\deploy\cpp_infer\include/preprocess_op.h(20): fatal error C1083: Cannot open include file: 'opencv2/core.hpp': No such file or directory
+  ocr_det.cpp
+d:\paddle_inference\paddle\include\paddle_tensor.h(173): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'paddle_infer::Tensor'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(153): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(154): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+          with
+          [
+              _Ty=int
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(71): note: see declaration of 'std::vector<int,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=int
+          ]
+D:\paddle_inference\paddle\include\paddle_api.h(157): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+          with
+          [
+              _Ty=size_t
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(145): note: see declaration of 'std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=size_t
+          ]
+D:\paddle_inference\paddle\include\paddle_api.h(321): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::NativeConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(323): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::NativeConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_pass_builder.h(114): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle::PaddlePassBuilder'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_pass_builder.h(115): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle::PaddlePassBuilder'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(866): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(867): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(868): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(881): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(918): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(919): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(920): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(921): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(932): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(942): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(959): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(961): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=paddle::PassStrategy
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(961): note: see declaration of 'std::unique_ptr<paddle::PassStrategy,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=paddle::PassStrategy
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(964): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(965): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(975): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(976): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(985): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(985): note: see declaration of 'std::shared_ptr<paddle::MkldnnQuantizerConfig>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(987): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(1006): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(1010): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(79): note: see declaration of 'paddle::DistConfig'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(410): warning C4244: 'return': conversion from 'const uint64_t' to 'int', possible loss of data
+D:\paddle_inference\paddle\include\paddle_inference_api.h(153): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle_infer::Predictor'
+          with
+          [
+              _Ty=paddle::PaddlePredictor
+          ]
+  D:\paddle_inference\paddle\include\paddle_api.h(288): note: see declaration of 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=paddle::PaddlePredictor
+          ]
+D:\paddle_inference\paddle\include\paddle_inference_api.h(200): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' needs to have dll-interface to be used by clients of class 'paddle_infer::services::PredictorPool'
+  D:\paddle_inference\paddle\include\paddle_inference_api.h(168): note: see declaration of 'std::shared_ptr<paddle_infer::Predictor>'
+D:\paddle_inference\paddle\include\paddle_inference_api.h(201): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<_Ty>>,std::allocator<std::unique_ptr<_Ty,std::default_delete<_Ty>>>>' needs to have dll-interface to be used by clients of class 'paddle_infer::services::PredictorPool'
+          with
+          [
+              _Ty=paddle_infer::Predictor
+          ]
+  D:\paddle_inference\paddle\include\paddle_inference_api.h(201): note: see declaration of 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<_Ty>>,std::allocator<std::unique_ptr<_Ty,std::default_delete<_Ty>>>>'
+          with
+          [
+              _Ty=paddle_infer::Predictor
+          ]
+E:\PaddleOCR\deploy\cpp_infer\include/utility.h(29): fatal error C1083: Cannot open include file: 'opencv2/core.hpp': No such file or directory
+  ocr_rec.cpp
+d:\paddle_inference\paddle\include\paddle_tensor.h(173): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'paddle_infer::Tensor'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(153): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(154): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+          with
+          [
+              _Ty=int
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(71): note: see declaration of 'std::vector<int,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=int
+          ]
+D:\paddle_inference\paddle\include\paddle_api.h(157): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+          with
+          [
+              _Ty=size_t
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(145): note: see declaration of 'std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=size_t
+          ]
+D:\paddle_inference\paddle\include\paddle_api.h(321): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::NativeConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(323): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::NativeConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_pass_builder.h(114): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle::PaddlePassBuilder'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_pass_builder.h(115): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle::PaddlePassBuilder'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(866): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(867): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(868): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(881): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(918): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(919): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(920): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(921): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(932): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(942): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(959): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(961): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=paddle::PassStrategy
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(961): note: see declaration of 'std::unique_ptr<paddle::PassStrategy,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=paddle::PassStrategy
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(964): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(965): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(975): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(976): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(985): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(985): note: see declaration of 'std::shared_ptr<paddle::MkldnnQuantizerConfig>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(987): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(1006): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(1010): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(79): note: see declaration of 'paddle::DistConfig'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(410): warning C4244: 'return': conversion from 'const uint64_t' to 'int', possible loss of data
+D:\paddle_inference\paddle\include\paddle_inference_api.h(153): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle_infer::Predictor'
+          with
+          [
+              _Ty=paddle::PaddlePredictor
+          ]
+  D:\paddle_inference\paddle\include\paddle_api.h(288): note: see declaration of 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=paddle::PaddlePredictor
+          ]
+D:\paddle_inference\paddle\include\paddle_inference_api.h(200): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' needs to have dll-interface to be used by clients of class 'paddle_infer::services::PredictorPool'
+  D:\paddle_inference\paddle\include\paddle_inference_api.h(168): note: see declaration of 'std::shared_ptr<paddle_infer::Predictor>'
+D:\paddle_inference\paddle\include\paddle_inference_api.h(201): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<_Ty>>,std::allocator<std::unique_ptr<_Ty,std::default_delete<_Ty>>>>' needs to have dll-interface to be used by clients of class 'paddle_infer::services::PredictorPool'
+          with
+          [
+              _Ty=paddle_infer::Predictor
+          ]
+  D:\paddle_inference\paddle\include\paddle_inference_api.h(201): note: see declaration of 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<_Ty>>,std::allocator<std::unique_ptr<_Ty,std::default_delete<_Ty>>>>'
+          with
+          [
+              _Ty=paddle_infer::Predictor
+          ]
+E:\PaddleOCR\deploy\cpp_infer\include/preprocess_op.h(20): fatal error C1083: Cannot open include file: 'opencv2/core.hpp': No such file or directory
+  paddleocr.cpp
+d:\paddle_inference\paddle\include\paddle_tensor.h(173): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'paddle_infer::Tensor'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(153): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(154): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+          with
+          [
+              _Ty=int
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(71): note: see declaration of 'std::vector<int,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=int
+          ]
+D:\paddle_inference\paddle\include\paddle_api.h(157): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+          with
+          [
+              _Ty=size_t
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(145): note: see declaration of 'std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=size_t
+          ]
+D:\paddle_inference\paddle\include\paddle_api.h(321): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::NativeConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(323): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::NativeConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_pass_builder.h(114): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle::PaddlePassBuilder'
+          with
+          [
+              _Ty=std::string
+          ]
+  D:\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_pass_builder.h(115): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle::PaddlePassBuilder'
+          with
+          [
+              _Ty=std::string
+          ]
+  D:\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(866): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(867): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(868): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(881): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(918): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(919): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(920): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(921): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  D:\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(932): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(942): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(959): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(961): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=paddle::PassStrategy
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(961): note: see declaration of 'std::unique_ptr<paddle::PassStrategy,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=paddle::PassStrategy
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(964): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  D:\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(965): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  D:\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(975): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(976): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(985): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(985): note: see declaration of 'std::shared_ptr<paddle::MkldnnQuantizerConfig>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(987): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(1006): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(1010): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(79): note: see declaration of 'paddle::DistConfig'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(410): warning C4244: 'return': conversion from 'const uint64_t' to 'int', possible loss of data
+D:\paddle_inference\paddle\include\paddle_inference_api.h(153): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle_infer::Predictor'
+          with
+          [
+              _Ty=paddle::PaddlePredictor
+          ]
+  D:\paddle_inference\paddle\include\paddle_api.h(288): note: see declaration of 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=paddle::PaddlePredictor
+          ]
+D:\paddle_inference\paddle\include\paddle_inference_api.h(200): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' needs to have dll-interface to be used by clients of class 'paddle_infer::services::PredictorPool'
+  D:\paddle_inference\paddle\include\paddle_inference_api.h(168): note: see declaration of 'std::shared_ptr<paddle_infer::Predictor>'
+D:\paddle_inference\paddle\include\paddle_inference_api.h(201): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<_Ty>>,std::allocator<std::unique_ptr<_Ty,std::default_delete<_Ty>>>>' needs to have dll-interface to be used by clients of class 'paddle_infer::services::PredictorPool'
+          with
+          [
+              _Ty=paddle_infer::Predictor
+          ]
+  D:\paddle_inference\paddle\include\paddle_inference_api.h(201): note: see declaration of 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<_Ty>>,std::allocator<std::unique_ptr<_Ty,std::default_delete<_Ty>>>>'
+          with
+          [
+              _Ty=paddle_infer::Predictor
+          ]
+E:\PaddleOCR\deploy\cpp_infer\include/preprocess_op.h(20): fatal error C1083: Cannot open include file: 'opencv2/core.hpp': No such file or directory
+  paddlestructure.cpp
+d:\paddle_inference\paddle\include\paddle_tensor.h(173): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'paddle_infer::Tensor'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(153): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(154): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+          with
+          [
+              _Ty=int
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(71): note: see declaration of 'std::vector<int,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=int
+          ]
+D:\paddle_inference\paddle\include\paddle_api.h(157): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+          with
+          [
+              _Ty=size_t
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(145): note: see declaration of 'std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=size_t
+          ]
+D:\paddle_inference\paddle\include\paddle_api.h(321): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::NativeConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(323): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::NativeConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_pass_builder.h(114): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle::PaddlePassBuilder'
+          with
+          [
+              _Ty=std::string
+          ]
+  D:\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_pass_builder.h(115): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle::PaddlePassBuilder'
+          with
+          [
+              _Ty=std::string
+          ]
+  D:\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(866): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(867): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(868): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(881): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(918): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(919): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(920): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(921): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  D:\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(932): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(942): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(959): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(961): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=paddle::PassStrategy
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(961): note: see declaration of 'std::unique_ptr<paddle::PassStrategy,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=paddle::PassStrategy
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(964): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  D:\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(965): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  D:\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(975): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(976): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(985): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(985): note: see declaration of 'std::shared_ptr<paddle::MkldnnQuantizerConfig>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(987): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(1006): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(1010): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(79): note: see declaration of 'paddle::DistConfig'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(410): warning C4244: 'return': conversion from 'const uint64_t' to 'int', possible loss of data
+D:\paddle_inference\paddle\include\paddle_inference_api.h(153): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle_infer::Predictor'
+          with
+          [
+              _Ty=paddle::PaddlePredictor
+          ]
+  D:\paddle_inference\paddle\include\paddle_api.h(288): note: see declaration of 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=paddle::PaddlePredictor
+          ]
+D:\paddle_inference\paddle\include\paddle_inference_api.h(200): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' needs to have dll-interface to be used by clients of class 'paddle_infer::services::PredictorPool'
+  D:\paddle_inference\paddle\include\paddle_inference_api.h(168): note: see declaration of 'std::shared_ptr<paddle_infer::Predictor>'
+D:\paddle_inference\paddle\include\paddle_inference_api.h(201): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<_Ty>>,std::allocator<std::unique_ptr<_Ty,std::default_delete<_Ty>>>>' needs to have dll-interface to be used by clients of class 'paddle_infer::services::PredictorPool'
+          with
+          [
+              _Ty=paddle_infer::Predictor
+          ]
+  D:\paddle_inference\paddle\include\paddle_inference_api.h(201): note: see declaration of 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<_Ty>>,std::allocator<std::unique_ptr<_Ty,std::default_delete<_Ty>>>>'
+          with
+          [
+              _Ty=paddle_infer::Predictor
+          ]
+E:\PaddleOCR\deploy\cpp_infer\include/preprocess_op.h(20): fatal error C1083: Cannot open include file: 'opencv2/core.hpp': No such file or directory
+  postprocess_op.cpp
+E:\PaddleOCR\deploy\cpp_infer\include/utility.h(29): fatal error C1083: Cannot open include file: 'opencv2/core.hpp': No such file or directory
+  preprocess_op.cpp
+E:\PaddleOCR\deploy\cpp_infer\include/preprocess_op.h(20): fatal error C1083: Cannot open include file: 'opencv2/core.hpp': No such file or directory
+  structure_layout.cpp
+d:\paddle_inference\paddle\include\paddle_tensor.h(173): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'paddle_infer::Tensor'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(153): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(154): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+          with
+          [
+              _Ty=int
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(71): note: see declaration of 'std::vector<int,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=int
+          ]
+D:\paddle_inference\paddle\include\paddle_api.h(157): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+          with
+          [
+              _Ty=size_t
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(145): note: see declaration of 'std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=size_t
+          ]
+D:\paddle_inference\paddle\include\paddle_api.h(321): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::NativeConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(323): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::NativeConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_pass_builder.h(114): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle::PaddlePassBuilder'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_pass_builder.h(115): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle::PaddlePassBuilder'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(866): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(867): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(868): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(881): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(918): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(919): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(920): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(921): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(932): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(942): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(959): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(961): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=paddle::PassStrategy
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(961): note: see declaration of 'std::unique_ptr<paddle::PassStrategy,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=paddle::PassStrategy
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(964): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(965): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(975): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(976): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(985): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(985): note: see declaration of 'std::shared_ptr<paddle::MkldnnQuantizerConfig>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(987): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(1006): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(1010): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(79): note: see declaration of 'paddle::DistConfig'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(410): warning C4244: 'return': conversion from 'const uint64_t' to 'int', possible loss of data
+D:\paddle_inference\paddle\include\paddle_inference_api.h(153): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle_infer::Predictor'
+          with
+          [
+              _Ty=paddle::PaddlePredictor
+          ]
+  D:\paddle_inference\paddle\include\paddle_api.h(288): note: see declaration of 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=paddle::PaddlePredictor
+          ]
+D:\paddle_inference\paddle\include\paddle_inference_api.h(200): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' needs to have dll-interface to be used by clients of class 'paddle_infer::services::PredictorPool'
+  D:\paddle_inference\paddle\include\paddle_inference_api.h(168): note: see declaration of 'std::shared_ptr<paddle_infer::Predictor>'
+D:\paddle_inference\paddle\include\paddle_inference_api.h(201): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<_Ty>>,std::allocator<std::unique_ptr<_Ty,std::default_delete<_Ty>>>>' needs to have dll-interface to be used by clients of class 'paddle_infer::services::PredictorPool'
+          with
+          [
+              _Ty=paddle_infer::Predictor
+          ]
+  D:\paddle_inference\paddle\include\paddle_inference_api.h(201): note: see declaration of 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<_Ty>>,std::allocator<std::unique_ptr<_Ty,std::default_delete<_Ty>>>>'
+          with
+          [
+              _Ty=paddle_infer::Predictor
+          ]
+E:\PaddleOCR\deploy\cpp_infer\include/utility.h(29): fatal error C1083: Cannot open include file: 'opencv2/core.hpp': No such file or directory
+  structure_table.cpp
+d:\paddle_inference\paddle\include\paddle_tensor.h(173): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'paddle_infer::Tensor'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(153): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(154): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+          with
+          [
+              _Ty=int
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(71): note: see declaration of 'std::vector<int,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=int
+          ]
+D:\paddle_inference\paddle\include\paddle_api.h(157): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of struct 'paddle::PaddleTensor'
+          with
+          [
+              _Ty=size_t
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(145): note: see declaration of 'std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=size_t
+          ]
+D:\paddle_inference\paddle\include\paddle_api.h(321): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::NativeConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\paddle_inference\paddle\include\paddle_api.h(323): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::NativeConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_pass_builder.h(114): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle::PaddlePassBuilder'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_pass_builder.h(115): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle::PaddlePassBuilder'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(866): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(867): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(868): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(881): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(918): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(919): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(920): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(529): note: see declaration of 'std::map<std::string,std::vector<int,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=int,
+              _Kty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(921): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(932): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(942): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(959): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(961): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=paddle::PassStrategy
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(961): note: see declaration of 'std::unique_ptr<paddle::PassStrategy,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=paddle::PassStrategy
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(964): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(965): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_tensor.h(30): note: see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(975): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(976): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(985): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(985): note: see declaration of 'std::shared_ptr<paddle::MkldnnQuantizerConfig>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(987): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(261): note: see declaration of 'std::unordered_set<std::string,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Ty>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(1006): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(1010): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' needs to have dll-interface to be used by clients of struct 'paddle::AnalysisConfig'
+  d:\paddle_inference\paddle\include\paddle_analysis_config.h(79): note: see declaration of 'paddle::DistConfig'
+d:\paddle_inference\paddle\include\paddle_analysis_config.h(410): warning C4244: 'return': conversion from 'const uint64_t' to 'int', possible loss of data
+D:\paddle_inference\paddle\include\paddle_inference_api.h(153): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'paddle_infer::Predictor'
+          with
+          [
+              _Ty=paddle::PaddlePredictor
+          ]
+  D:\paddle_inference\paddle\include\paddle_api.h(288): note: see declaration of 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=paddle::PaddlePredictor
+          ]
+D:\paddle_inference\paddle\include\paddle_inference_api.h(200): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' needs to have dll-interface to be used by clients of class 'paddle_infer::services::PredictorPool'
+  D:\paddle_inference\paddle\include\paddle_inference_api.h(168): note: see declaration of 'std::shared_ptr<paddle_infer::Predictor>'
+D:\paddle_inference\paddle\include\paddle_inference_api.h(201): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<_Ty>>,std::allocator<std::unique_ptr<_Ty,std::default_delete<_Ty>>>>' needs to have dll-interface to be used by clients of class 'paddle_infer::services::PredictorPool'
+          with
+          [
+              _Ty=paddle_infer::Predictor
+          ]
+  D:\paddle_inference\paddle\include\paddle_inference_api.h(201): note: see declaration of 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<_Ty>>,std::allocator<std::unique_ptr<_Ty,std::default_delete<_Ty>>>>'
+          with
+          [
+              _Ty=paddle_infer::Predictor
+          ]
+E:\PaddleOCR\deploy\cpp_infer\include/utility.h(29): fatal error C1083: Cannot open include file: 'opencv2/core.hpp': No such file or directory
+  utility.cpp
+E:\PaddleOCR\deploy\cpp_infer\include/utility.h(29): fatal error C1083: Cannot open include file: 'opencv2/core.hpp': No such file or directory
+  Generating Code...
