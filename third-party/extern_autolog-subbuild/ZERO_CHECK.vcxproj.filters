@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\d75989fcc6cb6b10cde7ee342c6301f9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{60BB3D8B-A600-3848-BAA9-8841C9800DCA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

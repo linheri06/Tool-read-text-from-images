@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/extern_autolog-populate"
+		},
+		{
+			"file" : "E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/d75989fcc6cb6b10cde7ee342c6301f9/extern_autolog-populate.rule"
+		},
+		{
+			"file" : "E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/95f1a2cf2e1a288014296f197edb302d/extern_autolog-populate-complete.rule"
+		},
+		{
+			"file" : "E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/bc82056e113d952eca7e45ce31a3c290/extern_autolog-populate-build.rule"
+		},
+		{
+			"file" : "E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/bc82056e113d952eca7e45ce31a3c290/extern_autolog-populate-configure.rule"
+		},
+		{
+			"file" : "E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/bc82056e113d952eca7e45ce31a3c290/extern_autolog-populate-download.rule"
+		},
+		{
+			"file" : "E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/bc82056e113d952eca7e45ce31a3c290/extern_autolog-populate-install.rule"
+		},
+		{
+			"file" : "E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/bc82056e113d952eca7e45ce31a3c290/extern_autolog-populate-mkdir.rule"
+		},
+		{
+			"file" : "E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/bc82056e113d952eca7e45ce31a3c290/extern_autolog-populate-patch.rule"
+		},
+		{
+			"file" : "E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/bc82056e113d952eca7e45ce31a3c290/extern_autolog-populate-test.rule"
+		},
+		{
+			"file" : "E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/bc82056e113d952eca7e45ce31a3c290/extern_autolog-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"extern_autolog-populate"
+		],
+		"name" : "extern_autolog-populate"
+	}
+}

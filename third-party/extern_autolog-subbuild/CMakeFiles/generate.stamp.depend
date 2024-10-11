@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/3.26.5/CMakeSystem.cmake
+E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeLists.txt
+E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/tmp/extern_autolog-populate-mkdirs.cmake
+E:/cmake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake
+E:/cmake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+E:/cmake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+E:/cmake/share/cmake-3.26/Modules/CMakeSystem.cmake.in
+E:/cmake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+E:/cmake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+E:/cmake/share/cmake-3.26/Modules/ExternalProject.cmake
+E:/cmake/share/cmake-3.26/Modules/ExternalProject/RepositoryInfo.txt.in
+E:/cmake/share/cmake-3.26/Modules/ExternalProject/cfgcmd.txt.in
+E:/cmake/share/cmake-3.26/Modules/ExternalProject/gitclone.cmake.in
+E:/cmake/share/cmake-3.26/Modules/ExternalProject/gitupdate.cmake.in
+E:/cmake/share/cmake-3.26/Modules/ExternalProject/mkdirs.cmake.in
+E:/cmake/share/cmake-3.26/Modules/Platform/Windows.cmake
+E:/cmake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake

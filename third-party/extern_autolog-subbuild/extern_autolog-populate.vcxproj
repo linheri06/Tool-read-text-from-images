@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4F964E4A-721B-3D75-A17F-14FA7343141B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>extern_autolog-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'extern_autolog-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\cmake\bin\cmake.exe -Dcfgdir=/Debug -P E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/tmp/extern_autolog-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -E touch E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'extern_autolog-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd E:\PaddleOCR\deploy\cpp_infer\build\third-party
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -P E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/tmp/extern_autolog-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -E touch E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\extern_autolog-populate-gitinfo.txt;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'extern_autolog-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -P E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/tmp/extern_autolog-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'extern_autolog-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -E touch E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'extern_autolog-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -E touch E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\tmp\extern_autolog-populate-cfgcmd.txt;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'extern_autolog-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -E touch E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'extern_autolog-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -E touch E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'extern_autolog-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -E touch E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\95f1a2cf2e1a288014296f197edb302d\extern_autolog-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'extern_autolog-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\cmake\bin\cmake.exe -E make_directory E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -E touch E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/Debug/extern_autolog-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake\bin\cmake.exe -E touch E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-install;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-mkdir;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-download;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-update;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-patch;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-configure;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-build;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\src\extern_autolog-populate-stamp\Debug\extern_autolog-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\Debug\extern_autolog-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\d75989fcc6cb6b10cde7ee342c6301f9\extern_autolog-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\Debug\extern_autolog-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\extern_autolog-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\cmake\bin\cmake.exe -SE:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild -BE:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild --check-stamp-file E:/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\3.26.5\CMakeSystem.cmake;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\autolog\tmp\extern_autolog-populate-mkdirs.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeSystem.cmake.in;E:\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake\share\cmake-3.26\Modules\ExternalProject.cmake;E:\cmake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;E:\cmake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;E:\cmake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;E:\cmake\share\cmake-3.26\Modules\ExternalProject\gitupdate.cmake.in;E:\cmake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;E:\cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\extern_autolog-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{D5F1894B-3971-38EA-9A0F-A537157051E5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

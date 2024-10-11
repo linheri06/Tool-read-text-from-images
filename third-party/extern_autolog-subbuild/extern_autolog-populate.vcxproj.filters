@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\bc82056e113d952eca7e45ce31a3c290\extern_autolog-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\95f1a2cf2e1a288014296f197edb302d\extern_autolog-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\d75989fcc6cb6b10cde7ee342c6301f9\extern_autolog-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-subbuild\CMakeFiles\extern_autolog-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{60BB3D8B-A600-3848-BAA9-8841C9800DCA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

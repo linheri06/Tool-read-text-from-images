@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{16F961C8-0ED0-3044-8DA6-101035E46FC8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E} = {B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "..\..\\ZERO_CHECK.vcxproj", "{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16F961C8-0ED0-3044-8DA6-101035E46FC8}.Debug|x64.ActiveCfg = Debug|x64
+		{16F961C8-0ED0-3044-8DA6-101035E46FC8}.Release|x64.ActiveCfg = Release|x64
+		{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}.Debug|x64.ActiveCfg = Debug|x64
+		{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}.Debug|x64.Build.0 = Debug|x64
+		{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}.Release|x64.ActiveCfg = Release|x64
+		{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74EEBA53-468F-376C-9B14-B72EDBF5BE14}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
