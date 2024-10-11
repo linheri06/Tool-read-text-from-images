@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1927
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{16F961C8-0ED0-3044-8DA6-101035E46FC8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E} = {B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paddle-engine", "paddle-engine.vcxproj", "{6F915D21-39E5-4DD7-BD55-F91BA9AC68C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ppocr", "ppocr.vcxproj", "{76007C80-D20C-33CF-B2E2-0C6EB0D6AB17}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E} = {B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16F961C8-0ED0-3044-8DA6-101035E46FC8}.Debug|x64.ActiveCfg = Debug|x64
+		{16F961C8-0ED0-3044-8DA6-101035E46FC8}.Debug|x86.ActiveCfg = Debug|x64
+		{16F961C8-0ED0-3044-8DA6-101035E46FC8}.Release|x64.ActiveCfg = Release|x64
+		{16F961C8-0ED0-3044-8DA6-101035E46FC8}.Release|x86.ActiveCfg = Release|x64
+		{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}.Debug|x64.ActiveCfg = Debug|x64
+		{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}.Debug|x64.Build.0 = Debug|x64
+		{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}.Debug|x86.ActiveCfg = Debug|x64
+		{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}.Release|x64.ActiveCfg = Release|x64
+		{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}.Release|x64.Build.0 = Release|x64
+		{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}.Release|x86.ActiveCfg = Release|x64
+		{6F915D21-39E5-4DD7-BD55-F91BA9AC68C1}.Debug|x64.ActiveCfg = Debug|x64
+		{6F915D21-39E5-4DD7-BD55-F91BA9AC68C1}.Debug|x64.Build.0 = Debug|x64
+		{6F915D21-39E5-4DD7-BD55-F91BA9AC68C1}.Debug|x86.ActiveCfg = Debug|x64
+		{6F915D21-39E5-4DD7-BD55-F91BA9AC68C1}.Release|x64.ActiveCfg = Release|x64
+		{6F915D21-39E5-4DD7-BD55-F91BA9AC68C1}.Release|x64.Build.0 = Release|x64
+		{6F915D21-39E5-4DD7-BD55-F91BA9AC68C1}.Release|x86.ActiveCfg = Release|x64
+		{76007C80-D20C-33CF-B2E2-0C6EB0D6AB17}.Debug|x64.ActiveCfg = Debug|x64
+		{76007C80-D20C-33CF-B2E2-0C6EB0D6AB17}.Debug|x64.Build.0 = Debug|x64
+		{76007C80-D20C-33CF-B2E2-0C6EB0D6AB17}.Debug|x86.ActiveCfg = Debug|x64
+		{76007C80-D20C-33CF-B2E2-0C6EB0D6AB17}.Release|x64.ActiveCfg = Release|x64
+		{76007C80-D20C-33CF-B2E2-0C6EB0D6AB17}.Release|x64.Build.0 = Release|x64
+		{76007C80-D20C-33CF-B2E2-0C6EB0D6AB17}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19A450FF-7AB0-39A0-ABCF-DFA0241E3559}
+	EndGlobalSection
+EndGlobal

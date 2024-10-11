@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B0E0CD98-CDBB-3447-8279-CB42AA4E8D7E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\paddle_inference\paddle\include;D:\opencv\build;D:\opencv\sources\include;D:\opencv\sources\include\opencv;D:\opencv\sources\modules\core\include;D:\opencv\sources\modules\flann\include;D:\opencv\sources\modules\imgproc\include;D:\opencv\sources\modules\ml\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\phase_unwrapping\include;D:\opencv\sources\modules\photo\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\plot\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\reg\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\surface_matching\include;D:\opencv\sources\modules\video\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\xphoto\include;D:\opencv\sources\modules\dnn\include;D:\opencv\sources\modules\features2d\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\fuzzy\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\hfs\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\img_hash\include;D:\opencv\sources\modules\imgcodecs\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\line_descriptor\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\saliency\include;D:\opencv\sources\modules\shape\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\text\include;D:\opencv\sources\modules\videoio\include;D:\opencv\sources\modules\calib3d\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\datasets\include;D:\opencv\sources\modules\highgui\include;D:\opencv\sources\modules\objdetect\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\rgbd\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\stereo\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\structured_light\include;D:\opencv\sources\modules\superres\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\tracking\include;D:\opencv\sources\modules\ts\include;D:\opencv\sources\modules\videostab\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\xfeatures2d\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\ximgproc\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\xobjdetect\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\aruco\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\bgsegm\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\bioinspired\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\ccalib\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\dnn_objdetect\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\dpm\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\face\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\optflow\include;D:\opencv\sources\modules\stitching\include;D:\paddle_inference\third_party\install\protobuf\include;D:\paddle_inference\third_party\install\glog\include;D:\paddle_inference\third_party\install\gflags\include;D:\paddle_inference\third_party\install\xxhash\include;D:\paddle_inference\third_party\install\zlib\include;D:\paddle_inference\third_party\install\onnxruntime\include;D:\paddle_inference\third_party\install\paddle2onnx\include;D:\paddle_inference\third_party\boost;D:\paddle_inference\third_party\eigen3;E:\PaddleOCR\deploy\cpp_infer;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\paddle_inference\paddle\include;D:\opencv\build;D:\opencv\sources\include;D:\opencv\sources\include\opencv;D:\opencv\sources\modules\core\include;D:\opencv\sources\modules\flann\include;D:\opencv\sources\modules\imgproc\include;D:\opencv\sources\modules\ml\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\phase_unwrapping\include;D:\opencv\sources\modules\photo\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\plot\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\reg\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\surface_matching\include;D:\opencv\sources\modules\video\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\xphoto\include;D:\opencv\sources\modules\dnn\include;D:\opencv\sources\modules\features2d\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\fuzzy\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\hfs\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\img_hash\include;D:\opencv\sources\modules\imgcodecs\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\line_descriptor\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\saliency\include;D:\opencv\sources\modules\shape\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\text\include;D:\opencv\sources\modules\videoio\include;D:\opencv\sources\modules\calib3d\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\datasets\include;D:\opencv\sources\modules\highgui\include;D:\opencv\sources\modules\objdetect\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\rgbd\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\stereo\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\structured_light\include;D:\opencv\sources\modules\superres\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\tracking\include;D:\opencv\sources\modules\ts\include;D:\opencv\sources\modules\videostab\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\xfeatures2d\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\ximgproc\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\xobjdetect\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\aruco\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\bgsegm\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\bioinspired\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\ccalib\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\dnn_objdetect\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\dpm\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\face\include;D:\opencv_contrib-3.4\opencv_contrib-3.4\modules\optflow\include;D:\opencv\sources\modules\stitching\include;D:\paddle_inference\third_party\install\protobuf\include;D:\paddle_inference\third_party\install\glog\include;D:\paddle_inference\third_party\install\gflags\include;D:\paddle_inference\third_party\install\xxhash\include;D:\paddle_inference\third_party\install\zlib\include;D:\paddle_inference\third_party\install\onnxruntime\include;D:\paddle_inference\third_party\install\paddle2onnx\include;D:\paddle_inference\third_party\boost;D:\paddle_inference\third_party\eigen3;E:\PaddleOCR\deploy\cpp_infer;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PaddleOCR\deploy\cpp_infer\build\CMakeFiles\ec7c5c68a56794e0f629e48929c528eb\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\cmake\bin\cmake.exe" -SE:/PaddleOCR/deploy/cpp_infer -BE:/PaddleOCR/deploy/cpp_infer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/PaddleOCR/deploy/cpp_infer/build/ppocr.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\cmake\share\cmake-3.26\Modules\CMakeCInformation.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;E:\cmake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;E:\cmake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;E:\cmake\share\cmake-3.26\Modules\FetchContent.cmake;E:\cmake\share\cmake-3.26\Modules\FetchContent\CMakeLists.cmake.in;E:\cmake\share\cmake-3.26\Modules\FindGit.cmake;E:\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;E:\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;E:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;E:\cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\PaddleOCR\deploy\cpp_infer\CMakeLists.txt;E:\PaddleOCR\deploy\cpp_infer\build\CMakeFiles\3.24.1\CMakeCCompiler.cmake;E:\PaddleOCR\deploy\cpp_infer\build\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;E:\PaddleOCR\deploy\cpp_infer\build\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;E:\PaddleOCR\deploy\cpp_infer\build\CMakeFiles\3.24.1\CMakeSystem.cmake;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-src\CMakeLists.txt;E:\PaddleOCR\deploy\cpp_infer\external-cmake\auto-log.cmake;D:\opencv\build\OpenCVConfig-version.cmake;D:\opencv\build\OpenCVConfig.cmake;D:\opencv\build\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PaddleOCR\deploy\cpp_infer\build\CMakeFiles\generate.stamp;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\cmake\bin\cmake.exe" -SE:/PaddleOCR/deploy/cpp_infer -BE:/PaddleOCR/deploy/cpp_infer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/PaddleOCR/deploy/cpp_infer/build/ppocr.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\cmake\share\cmake-3.26\Modules\CMakeCInformation.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;E:\cmake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;E:\cmake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;E:\cmake\share\cmake-3.26\Modules\FetchContent.cmake;E:\cmake\share\cmake-3.26\Modules\FetchContent\CMakeLists.cmake.in;E:\cmake\share\cmake-3.26\Modules\FindGit.cmake;E:\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;E:\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;E:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;E:\cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\PaddleOCR\deploy\cpp_infer\CMakeLists.txt;E:\PaddleOCR\deploy\cpp_infer\build\CMakeFiles\3.24.1\CMakeCCompiler.cmake;E:\PaddleOCR\deploy\cpp_infer\build\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;E:\PaddleOCR\deploy\cpp_infer\build\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;E:\PaddleOCR\deploy\cpp_infer\build\CMakeFiles\3.24.1\CMakeSystem.cmake;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-src\CMakeLists.txt;E:\PaddleOCR\deploy\cpp_infer\external-cmake\auto-log.cmake;D:\opencv\build\OpenCVConfig-version.cmake;D:\opencv\build\OpenCVConfig.cmake;D:\opencv\build\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\PaddleOCR\deploy\cpp_infer\build\CMakeFiles\generate.stamp;E:\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

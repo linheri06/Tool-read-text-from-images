@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (ppocr.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Building Custom Rule E:/PaddleOCR/deploy/cpp_infer/CMakeLists.txt
+  CMake is re-running because E:/PaddleOCR/deploy/cpp_infer/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'D:/opencv/build/OpenCVConfig-version.cmake'
+    is newer than 'E:/PaddleOCR/deploy/cpp_infer/build/CMakeFiles/generate.stamp.depend'
+    result='0'
+CUSTOMBUILD : CMake error : The current CMakeCache.txt directory E:/PaddleOCR/deploy/cpp_infer/build/CMakeCache.txt is different than the directory c:/Users/tusky/Documents/Projects/PaddleOCR/PaddleOCR_2.5/deploy/cpp_infer/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CUSTOMBUILD : CMake error : The source "E:/PaddleOCR/deploy/cpp_infer/CMakeLists.txt" does not match the source "C:/Users/tusky/Documents/Projects/PaddleOCR/PaddleOCR_2.5/deploy/cpp_infer/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
